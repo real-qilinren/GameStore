@@ -1,0 +1,29 @@
+GET http://localhost:5238/games
+
+###
+GET http://localhost:5238/games/1
+
+###
+POST http://localhost:5238/games
+Content-Type: application/json
+
+{
+  "name": "Game 1",
+  "genre": "Action",
+  "price": 100,
+  "releaseDate": "2021-01-01T00:00:00"
+}
+
+###
+PUT http://localhost:5238/games/1
+Content-Type: application/json
+
+{
+  "name": "Game 1 Updated",
+  "genre": "Action",
+  "price": 1200,
+  "releaseDate": "2023-01-01T00:00:00"
+}
+
+###
+DELETE http://localhost:5238/games/2
