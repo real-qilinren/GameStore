@@ -1,4 +1,4 @@
-# GameStore API
+# GameStore
 
 GameStore API is a simple yet powerful .NET project built with C# and Entity Framework Core. This project serves as a backend for a game store application, providing a set of RESTful APIs to manage and retrieve game data.
 
