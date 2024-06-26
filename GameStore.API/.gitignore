@@ -57,4 +57,3 @@ $RECYCLE.BIN/
 *.secrets.json
 
 GameStore.db
-Data/*
