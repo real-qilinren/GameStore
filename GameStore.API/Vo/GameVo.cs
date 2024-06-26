@@ -2,9 +2,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GameStore.API.Vo;
 
-public record GameVo(
+public record CreateGameVo(
     [Required] [StringLength(50)] string Name,
-    [Required] [StringLength(20)] string Genre,
+    int GenreId,
     [Range(1, 100)] decimal Price,
     DateOnly ReleaseDate
 );
