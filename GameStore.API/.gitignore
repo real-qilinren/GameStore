@@ -55,3 +55,6 @@ $RECYCLE.BIN/
 
 # ASP.NET runtime secrets
 *.secrets.json
+
+GameStore.db
+Data/*

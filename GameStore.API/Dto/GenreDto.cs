@@ -1,3 +1,6 @@
 namespace GameStore.API.Dto;
 
-public record GenreDto();
+public record class GenreDto(
+    int Id,
+    string Name
+);
